@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import streamlit as st
+from matplotlib.patches import Circle, FancyBboxPatch, Polygon
 
 st.set_page_config(page_title="パイプライン型ADC 入門", layout="wide")
 
